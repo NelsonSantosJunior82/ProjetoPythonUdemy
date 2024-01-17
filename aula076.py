@@ -32,4 +32,5 @@ pessoa = dict(
     endereco=['Rua Joaquim Teodoro Tavares, 46',
               'Rua Magalhães Lemos, 174']
 )
-print(pessoa)
+for chave in pessoa:
+    print(chave, pessoa[chave])
