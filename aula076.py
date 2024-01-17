@@ -7,7 +7,7 @@ que vimos na lista e podem ser de tipo imutáveis
 como: str, int, float, bool, tuple, etc.
 O valor pode ser qualquer tipo, incluindo outro
 dicionário.
-Usamos chaves "{}" ou a classe dict para criar 
+Usamos chaves "{}" ou a classe dict para criar
 dicionários.
 Imutáveis: str, int, float, bool, tuple
 Mutáveis: dict, list.
