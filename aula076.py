@@ -23,7 +23,7 @@ pessoa = {
         {'Rua: Joaquim Teodoro Tavares, 46'},
         {'Rua: Magalhães Lemos, 174'}]
 }
-"""
+
 pessoa = dict(
     nome='Nelson',
     sobrenome='Santos Júnior',
@@ -34,3 +34,17 @@ pessoa = dict(
 )
 for chave in pessoa:
     print(chave, pessoa[chave])
+
+
+Métodos úteis dos dicionários em Python
+Len - Quantas vezes
+Keys - Iterável com as chaves
+Values - Iterável com valores
+Items - Iterável com chaves e valores
+Setdefault - Adiciona valor se a chave não existe
+Copy - Retorna uma cópia rasa (Shallow copy)
+Get - Obtém a chave
+Pop - Apaga um item com a chave especifica (del)
+Popitem - Apaga um item adicionado
+Update - Atualiza um dicionário com outro
+"""
