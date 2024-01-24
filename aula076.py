@@ -48,3 +48,29 @@ Pop - Apaga um item com a chave especifica (del)
 Popitem - Apaga um item adicionado
 Update - Atualiza um dicionário com outro
 """
+pessoa = {
+    'nome': 'Nelson',
+    'sobrenome': 'Santos Júnior',
+    'idade': '41',
+}
+
+'''nome = pessoa.pop('nome')
+print(nome)
+print(pessoa)'''
+
+'''last_key = pessoa.popitem()
+print(last_key)
+print(pessoa)'''
+
+'''pessoa.update({
+    'nome': 'Nelso José'
+}
+print(pessoa)'''
+
+# pessoa.setdefault('idade')
+# print(list(pessoa.keys()))
+# print(list(pessoa.values()))
+# print(list(pessoa.items()))
+# print(pessoa['idade'])
+# print(pessoa['nome'])
+# print(pessoa.get('nome'))
