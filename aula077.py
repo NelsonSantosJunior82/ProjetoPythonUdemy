@@ -38,7 +38,7 @@ for pergunta in perguntas:
     acertou = False
     escolha_int = None
     qtd_opcoes = len(opcoes)
-    
+
     if escolha.isdigit():
         escolha_int = int(escolha)
 
@@ -52,8 +52,8 @@ for pergunta in perguntas:
         print('Acertou!!')
     else:
         print('Errou!!')
-    
+
     print()
 
-print('Você acertou', qtd_acertos) 
+print('Você acertou', qtd_acertos)
 print('de', len(perguntas), 'perguntas.')
