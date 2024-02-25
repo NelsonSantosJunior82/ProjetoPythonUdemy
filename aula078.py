@@ -1,4 +1,4 @@
-''' 
+'''
 Sets - Conjuntos em Python (tipo set)
 Conjuntos são ensinados na matemática
 https://brasilescola.uol.com.br/matematica/conjunto.htm
