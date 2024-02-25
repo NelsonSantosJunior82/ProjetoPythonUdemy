@@ -18,7 +18,12 @@ de iteráveis.
  - eles garantem ordem;
  - eles iteráveis(for, in, not in)
 
- Métodos úteis:
+Métodos úteis:
 add, update, clear, discard
 
+Operadores úteis:
+União | união (union) une
+Intersecção & (intersection) - Itens presentes em ambos
+Diferença - Itens presentes apenas no set da esquerda
+Diferença simétrica ^ - Itens que não estão em ambos
 '''
