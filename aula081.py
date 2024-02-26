@@ -14,3 +14,10 @@ lista = [
     {nome:'Aline', sobrenme:'Souza'}
 ]
 '''
+lista = [
+    {'nome': 'Luiz', 'sobrenome': 'Miranda'},
+    {'nome': 'Maria', 'sobrenome': 'Oliveira'},
+    {'nome': 'Daniel', 'sobrenome': 'Silva'},
+    {'nome': 'Eduardo', 'sobrenome': 'Moreira'},
+    {'nome': 'Aline', 'sobrenme': 'Souza'}
+]
