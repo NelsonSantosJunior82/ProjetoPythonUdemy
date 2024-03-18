@@ -23,7 +23,7 @@ produtos = [
     {'nome': 'p3', 'preco': 30, },
 ]
 
-novos_produtos = [
+"""novos_produtos = [
     {**produto, 'preco': produto['preco'] * 1.05}
     if produto['preco'] > 20 else {**produto}
     for produto in produtos
@@ -34,4 +34,13 @@ novos_produtos = [
 lista = [
     n for n in range(10) if n < 5
 ]
-print(lista)
+print(lista)"""
+
+novos_produtos = [
+    {**produto, 'preco': produto['preco'] * 1.05}
+    if produto['preco'] > 20 else {**produto}
+    for produto in produtos
+    if (produto['preco'] >= 20 and produto['preco'] * 1.05) > 10
+]
+
+print(novos_produtos)
