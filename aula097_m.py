@@ -1,1 +1,7 @@
-print('Esse módulo se chama', __name__)
+
+variavel_modulo = 'Nelson'
+
+
+def soma(x, y):
+
+    return x + y
