@@ -13,9 +13,15 @@
 # print(variavel)
 
 
-from aula099_package.modulo import soma_do_modulo, fala_oi
+# from aula099_package.modulo import soma_do_modulo, fala_oi
 
 
-print(__name__)
-fala_oi()
-soma_do_modulo(2, 3)
+# print(__name__)
+# fala_oi()
+# soma_do_modulo(2, 3)
+
+
+from aula099_package import soma_do_modulo, qualquer_coisa
+
+print(soma_do_modulo(2, 3))
+qualquer_coisa()
