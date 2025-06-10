@@ -16,7 +16,7 @@ print("Luiz Otávio")
 print(2, "Luiz 'Otávio'")
 
 # Escape
-print("Luiz \"Otávio\"")
+print("Luiz \"Otávio")
 
 # r
 print(r"Luiz \"Otávio\"")
